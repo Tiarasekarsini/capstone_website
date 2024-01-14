@@ -29,7 +29,7 @@ Route::group(['middleware' => 'notlogined'], function(){
 });
 Route::group(['middleware' => 'logined'], function(){
     Route::get('admin', [AdminHomeController::class, 'index']);
-    
+
     Route::get('logout', [AuthController::class, 'doLogout']);
 
     Route::get('admin/category', [AdminCategoryController::class, 'index']);
@@ -38,7 +38,7 @@ Route::group(['middleware' => 'logined'], function(){
     Route::post('admin/category/doUpdate/{id}', [AdminCategoryController::class, 'doUpdate']);
     Route::post('admin/category/doDelete', [AdminCategoryController::class, 'doDelete']);
     Route::post('admin/category/getById/{id}', [AdminCategoryController::class, 'getById']);
-    
+
     Route::get('admin/mypost', [AdminPostController::class, 'index']);
     Route::post('admin/mypost/getDatatable', [AdminPostController::class, 'getDatatable']);
     Route::post('admin/mypost/doAdd', [AdminPostController::class, 'doAdd']);
