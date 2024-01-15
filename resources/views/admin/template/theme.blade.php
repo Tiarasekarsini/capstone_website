@@ -1015,7 +1015,7 @@
                                 </a>
                                 <div class="profile-dropdown dropdown-menu dropdown-menu--right">
                                     <a class="profile-dropdown__item dropdown-menu__item"
-                                        href="{{ env('APP_URL') . '/' }}" tabindex="0">
+                                        href="{{ env('APP_URL') . '/logout' }}" tabindex="0">
                                         <span class="profile-dropdown__icon">
                                             <svg class="icon-icon-logout">
                                                 <use xlink:href="#icon-logout"></use>
