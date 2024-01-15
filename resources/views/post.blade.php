@@ -15,10 +15,10 @@
 
         <div class="container mt-5">
             <!-- <div class="section-title style-six text-center">
-             <h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
-              <span>{{ $post->title }}</span>
-             </h2>
-            </div> -->
+                                                         <h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+                                                          <span>{{ $post->title }}</span>
+                                                         </h2>
+                                                        </div> -->
             <div class="row">
 
                 <div class="col-lg-4 col-md-4">
